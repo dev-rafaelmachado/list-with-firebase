@@ -1,0 +1,25 @@
+.input{
+    position:static;
+    width: 350px;
+    height: 40px;
+    padding-left: 20px;
+    padding-bottom: 2px;
+
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.747);
+    border-radius: 0.8rem;
+
+    font-family: "Lato","sans-serif";
+    font-size: 1rem;
+
+    background: none;
+    color: white;
+
+    transition: 0.3s;
+}
+
+.input:focus{
+    border: 1px solid #04d9ff;
+    box-shadow:  9px 9px 34px #03b6d63d,
+             -9px -9px 34px #05fbff42;
+}
